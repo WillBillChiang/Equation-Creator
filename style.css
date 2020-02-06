@@ -1,0 +1,36 @@
+.input {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+
+#head {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: darkred;
+  padding: 20px;
+}
+
+.out {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: darkslateblue;
+  padding: 10px;
+}
+
+#foot {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  color: darkgrey;
+  padding: 15px;
+}
+
+#text {
+  padding: 5px;
+  color: grey;
+}

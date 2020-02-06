@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="script.js">
+
+	</script>
+	<!--
+      Header
+    -->
+	<div id="head">
+		Equation Creator
+	</div>
+	<!--
+      Input Boxes
+    -->
+	<form id="coordinates" class="input">
+		X-Coordinate of Point 1<br>
+    <input type="number" placeholder="Enter" name="x1" class="clear"><br>
+    Y-Coordinate of Point 1<br>
+    <input type="number" placeholder="Enter" name="y1" class="clear"><br>
+    X-Coordinate of Point 2<br>
+    <input type="number" placeholder="Enter" name="x2" class="clear"><br>
+    Y-Coordinate of Point 2<br>
+    <input type="number" placeholder="Enter" name="y2" class="clear"><br><br>
+  </form>
+  <form id="error" class="input">
+    <div id="text">Percent Error (Leave Inputs Blank if Not Applicable)</div>
+    <br>
+    Accepted Value for Slope<br>
+    <input type="String" placeholder="Enter" name="slope" class="clear"><br>
+    Accepted Value for Y-Intercept<br>
+    <input type="String" placeholder="Enter" name="yIntercept" class="clear"><br><br>
+  </form>
+  <form class="input">
+    <input type="button" onclick="cal()" value="Create">  
+    <br>
+    <input type="button" onclick="res()" value="Reset">  
+  </form>
+  <!--
+    Output
+    -->
+  <div id="outEquation" class="out">
+	</div>
+  <div id="outSlopeError" class="out">
+	</div>
+  <div id="outYError" class="out">
+	</div>
+  <!--
+    Footer
+    -->
+  <div id="foot">
+    You may use e for scientific notation (i.e. 2.3*10^-9 is 2.3e-9). I am not liable for wrong calculations, use at your own risk. Other website: 
+    <a href="https://repl.it/@WilliamC2/GPA-Predictor">GPA Predictor</a>
+  </div>
+  </body>
+
+</html>
