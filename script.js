@@ -15,7 +15,7 @@ function cal(){
   if (Math.abs(yIntercept) > 1000 || Math.abs(yIntercept) < 0.00001){
     yIntercept = yIntercept.toExponential()
   }
-  document.getElementById("outEquation").innerHTML = "Equation: <br>Y = " + String(slope.toFixed(5)) + "*x + " + String(yIntercept.toFixed(5));
+  document.getElementById("outEquation").innerHTML = "Equation: <br>Y = " + String(slope) + "*x + " + String(yIntercept);
   if (slopeError != "") {
     slopeError = Number(slopeError)
     percent = Math.round(((slope-slopeError)/slopeError)*100, 4)
